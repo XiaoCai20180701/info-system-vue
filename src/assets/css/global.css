@@ -1,0 +1,33 @@
+/* rest */
+h2,h3,h3 {
+  margin: 5px 0;
+}
+
+.nav-bar-fixed {
+  margin-top: 46px;
+}
+.content-top {
+  margin-top: 98px;
+}
+.content-bottom {
+  /* 修复内容底部被导航栏遮挡 */
+  padding-bottom: 55px;
+}
+
+
+/* 新闻详情 图文详情 */
+.news-detail-content,.photo-detail-content {
+  padding: 15px;
+}
+.news-detail-content .title,.photo-detail-content .title{
+  color: #1989fa;
+}
+.news-detail-text, .photo-detail-text {
+  padding: 10px 0;
+  margin-top: 10px;
+  border-top: 1px solid #ebedf0;
+  font-size: 14px;
+}
+small {
+  color: #888585;
+}
