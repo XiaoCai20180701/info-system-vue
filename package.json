@@ -8,10 +8,14 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "mock": "json-server --watch mock/faker-data.js",
+    "mockdev": "npm run mock & npm run dev"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "faker": "^4.1.0",
+    "moment": "^2.24.0",
     "vant": "^1.6.11",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
