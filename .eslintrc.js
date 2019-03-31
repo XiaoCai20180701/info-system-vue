@@ -32,6 +32,7 @@ module.exports = {
       {
         'baseIndent': 1
       }
-    ]
-}
+    ],
+    'func-call-spacing': 0
+  }
 }
