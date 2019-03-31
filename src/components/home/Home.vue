@@ -28,6 +28,10 @@
           {
             title: '新闻资讯',
             router: {name: 'news-list'}
+          },
+          {
+            title: '图文分享',
+            router: {name: 'photo-list', params: {categoryId: 0}}
           }
         ]
       }
